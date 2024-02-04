@@ -1,0 +1,54 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #fff;
+    color: #000;
+}
+.banner{
+    background-image: url(images/leone-venter-VieM9BdZKFo-unsplash.jpg);
+    background-size: cover;
+    padding: 250px 0;
+}   
+
+.toogle-btn{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.toogle-btn img{
+    width: 25px;
+    margin-left: 10px;
+}
+
+
+  /* Dark mode styles */
+.dark-theme {
+    background: #000;
+    color: #fff;
+}
+.dark-theme .banner{
+    color: black;
+  }
+
+.dark-theme .navbar-brand{
+    color: white !important;
+}
+.dark-theme .toogle-btn{
+    background: #000;
+    color: white;
+}
+.dark-theme .navbar {
+    background-color: #000 !important;
+    color: white !important;
+}
+.dark-theme .navbar-nav .nav-link {
+    color: white !important;
+}
