@@ -6,11 +6,7 @@ body{
     background: #fff;
     color: #000;
 }
-.banner{
-    background-image: url(images/leone-venter-VieM9BdZKFo-unsplash.jpg);
-    background-size: cover;
-    padding: 250px 0;
-}   
+
 
 .toogle-btn{
     background: black;
