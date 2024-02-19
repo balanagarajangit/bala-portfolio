@@ -6,6 +6,11 @@ body{
     background: #fff;
     color: #000;
 }
+.banner{
+    color:black;
+    height:700px;
+    width:100%
+}
 
 
 .toogle-btn{
@@ -31,7 +36,7 @@ body{
     color: #fff;
 }
 .dark-theme .banner{
-    color: black;
+    color: white;
   }
 
 .dark-theme .navbar-brand{
